@@ -1,0 +1,61 @@
+{
+	"name": "salesTable",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "outputSQL",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "rank",
+				"type": "varchar"
+			},
+			{
+				"name": "name",
+				"type": "varchar"
+			},
+			{
+				"name": "platform",
+				"type": "varchar"
+			},
+			{
+				"name": "year",
+				"type": "varchar"
+			},
+			{
+				"name": "genere",
+				"type": "varchar"
+			},
+			{
+				"name": "publisher",
+				"type": "varchar"
+			},
+			{
+				"name": "na_sales",
+				"type": "varchar"
+			},
+			{
+				"name": "eu_sales",
+				"type": "varchar"
+			},
+			{
+				"name": "jp_sales",
+				"type": "varchar"
+			},
+			{
+				"name": "other_sales",
+				"type": "varchar"
+			},
+			{
+				"name": "global_sales",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "DataTest2"
+		}
+	}
+}
