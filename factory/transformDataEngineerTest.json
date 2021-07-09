@@ -1,0 +1,9 @@
+{
+	"name": "transformDataEngineerTest",
+	"location": "southcentralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "a94734db-904e-4128-8bd3-6b529a8d9ef2",
+		"tenantId": "40c302fa-9af1-465f-9226-18e188541349"
+	}
+}
