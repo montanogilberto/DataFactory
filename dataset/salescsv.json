@@ -1,0 +1,69 @@
+{
+	"name": "salescsv",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "inputBlob",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "vgsales.csv",
+				"folderPath": "demoFiles",
+				"container": "demo"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "Rank",
+				"type": "String"
+			},
+			{
+				"name": "Name",
+				"type": "String"
+			},
+			{
+				"name": "Platform",
+				"type": "String"
+			},
+			{
+				"name": "Year",
+				"type": "String"
+			},
+			{
+				"name": "Genre",
+				"type": "String"
+			},
+			{
+				"name": "Publisher",
+				"type": "String"
+			},
+			{
+				"name": "NA_Sales",
+				"type": "String"
+			},
+			{
+				"name": "EU_Sales",
+				"type": "String"
+			},
+			{
+				"name": "JP_Sales",
+				"type": "String"
+			},
+			{
+				"name": "Other_Sales",
+				"type": "String"
+			},
+			{
+				"name": "Global_Sales",
+				"type": "String"
+			}
+		]
+	}
+}
